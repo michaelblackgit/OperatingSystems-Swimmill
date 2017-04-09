@@ -1,0 +1,4 @@
+swimmillmake: swimmill.c fish.c pellet.c
+	gcc -o swimmill swimmill.c 
+	gcc -o fish fish.c 
+	gcc -o pellet pellet.c
